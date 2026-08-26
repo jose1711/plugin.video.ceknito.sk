@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.ceknito.sk" name="ceknito.sk" provider-name="jose1711" version="0.1.0">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.stream.resolver" version="1.6.55" />
+	</requires>
+	<extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">ceknito.sk</summary>
+		<summary lang="cs_CZ">ceknito.sk</summary>
+		<summary lang="sk_SK">ceknito.sk</summary>
+		<description lang="en_GB">Watch content from ceknito.sk</description>
+		<description lang="cs_CZ">Sleduj videa z ceknito.sk</description>
+		<description lang="sk_SK">Sleduj videá z ceknito.sk</description>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		</extension>
+
+	</addon>
